@@ -27,7 +27,8 @@ const USERNAME = process.env.DB_USERNAME;
 const PASSWORD = process.env.DB_PASSWORD;
 
 
-const URL =process.env.MONGODB_URI || `mongodb+srv://${USERNAME}:${PASSWORD}@blog-website.vcaiu8v.mongodb.net/?retryWrites=true&w=majority`;
+// const URL =process.env.MONGODB_URI || `mongodb+srv://${USERNAME}:${PASSWORD}@blog-website.vcaiu8v.mongodb.net/?retryWrites=true&w=majority`;
+const URL =process.env.MONGODB_URI || `mongodb+srv://${USERNAME}:${PASSWORD}@blog-website.vcaiu8v.mongodb.net/`;
 
 Connection(URL);
 
